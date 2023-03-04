@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K | Modifieded By : @DC4_WARRIOR
+# (c) Shrimadhav U K | Modified By : @TRAVIS
 
 import os
 import logging
@@ -16,7 +16,7 @@ if __name__ == "__main__" :
     if not os.path.isdir(Config.DOWNLOAD_LOCATION):
         os.makedirs(Config.DOWNLOAD_LOCATION)
     plugins = dict(root="plugins")
-    Warrior = Clinton("@BOT_X_BOT",
+    Warrior = Travis("@newurluploader_bot",
     bot_token=Config.BOT_TOKEN,
     api_id=Config.API_ID,
     api_hash=Config.API_HASH,
